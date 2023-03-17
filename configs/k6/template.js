@@ -5,7 +5,7 @@ import { randomIntBetween } from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
 
 export const options = {
     vus: 1,
-    duration: "20m",
+    duration: "1440m",
 };
 
 const endpoint = __ENV.ENDPOINT || "otel-collector:4317"
